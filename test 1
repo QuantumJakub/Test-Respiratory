@@ -1,3 +1,6 @@
-test 1
-test 2
-test 3
+Result = 0
+
+for n in range(0,1000):
+    if n%3==0 or n%5==0:
+        Result += n
+print(Result)
